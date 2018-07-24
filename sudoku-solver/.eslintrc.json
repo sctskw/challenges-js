@@ -1,0 +1,34 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": [
+        "./.eslintrc.standard.json"
+    ],
+    "overrides": [
+        {
+            "env": {
+                "jest": true
+            },
+            "files": [
+                "**/*.test.js",
+                "**/*unit*.js"
+            ],
+            "plugins": [
+                "jest"
+            ],
+            "rules": {
+                "jest/no-disabled-tests": "warn",
+                "jest/no-focused-tests": "error",
+                "jest/no-identical-title": "error",
+                "jest/prefer-to-have-length": "warn",
+                "jest/valid-expect": "error"
+            }
+        }
+    ],
+    "root": true,
+    "rules": {
+        "no-console": "off",
+        "no-debugger": "error"
+    }
+}

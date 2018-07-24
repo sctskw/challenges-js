@@ -1,0 +1,17 @@
+{
+    "moduleDirectories": [
+      "node_modules",
+      "./"
+    ],
+    "modulePaths": [
+      "<rootDir>"
+    ],
+    "rootDir": "./",
+    "setupTestFrameworkScriptFile": "<rootDir>/tests/unit.runner.js",
+    "testEnvironment": "<rootDir>/tests/unit.env.js",
+    "testMatch": [
+        "**/*.test.js"
+    ],
+    "silent": false,
+    "verbose": true
+}

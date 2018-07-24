@@ -1,0 +1,17 @@
+{
+  "name": "challenges",
+  "version": "0.0.1",
+  "description": "fun javascript challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.spec.js",
+    "test-debug": "mocha debug **/*.spec.js"
+  },
+  "author": "Scott Skow",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "mocha": "^2.3.4",
+    "should": "^8.1.1"
+  }
+}

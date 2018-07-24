@@ -1,0 +1,4 @@
+- Don't forget that the MAX value can be less than zero (0)
+- initialize initial max to null and do specific type checking
+
+
